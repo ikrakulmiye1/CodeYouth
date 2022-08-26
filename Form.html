@@ -24,7 +24,7 @@
     <li> <p>
         Please check all the emotions that apply to you:</p>
      </li>
-     <ul>
+    <ul>
         <li>
             <input type="Radio" id="angry" name="emotions" value="Angry">
             <label for="angry">Angry</label>
@@ -41,11 +41,13 @@
             <input type="Radio" id="ambivalent" name="emotions" value="Ambivalent">
             <label for="ambivalent">Ambivalent</label>
         </li>
+    </ul>
+    <li><p>
+        How satisfied were you with your services?</p>
+    </li>
+    <ul>
 
-        <li>
-            <p>How satisfied were you with your services?</p>
-        </li>
-        <li>
+         <li>
             <input type="radio" id="very satisfied" name="satisfication" value="Very satisfied">
             <label for="Very satisfied">Vey Satisfied</label>
         </li>
@@ -74,12 +76,20 @@
             <input type="file" name="biophoto" id="biophoto">
         </li>
         <li>
-            <label for="location">Location visted</label>
-            <select name="Location" id="location">Select location</select>
-            <select name="Canada" id="">Canada</select>
+            </label>Location</label>
+            <select name="country">
+            <option value="canada">Canada</option> 
+            <option value="us">US</option>       
+            <option value="australia">Australia</option>
+            <option value="russia">Russia</option>
         </li>
+        <ol></ol>
+        <br/><br/>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+        <input type="button" value="Submit" onclick="alert('Submitted!')"></button>>
+    </ol>
+    </ul>
 
-
-     </ul>
 </body>
 </html>
